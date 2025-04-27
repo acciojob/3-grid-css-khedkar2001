@@ -1,8 +1,9 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 10px; /* optional: space between blocks */
+  grid-template-columns: repeat(3, 321px); /* fixed width columns */
+  gap: 10px;
   padding: 20px;
+  justify-content: center; /* to center the whole grid */
 }
 
 .grid-item {
